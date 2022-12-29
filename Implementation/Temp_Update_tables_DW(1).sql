@@ -1,0 +1,115 @@
+
+
+
+CREATE TABLE [dbo].Temp_Update_StoreOrder_1(
+	[StoreOrder_ID] [int]   NOT NULL,
+	[Store_ID] [int] NOT NULL,
+	[Store_Name] [varchar](60) NOT NULL,
+	[Supplier_ID] [int] NOT NULL,
+	[SupplierName] [varchar](60) NOT NULL,
+	[AddressField1] [varchar](60) NOT NULL,
+	[AddressField2] [varchar](60) NULL,
+	[Country] [varchar] (60) NOT NULL,
+	[State] [varchar] (60) NOT NULL,
+	[City] [varchar] (60) NOT NULL,
+	[Zipcode] [char] (10) NOT NULL,
+	[Date] [int] NOT NULL,
+	[Status] [varchar](15) NOT NULL,
+	[Total Payment]  numeric(20,4) NOT NULL,
+	[StorePayment_ID] [int] NOT NULL,
+	[PaymentMode] [char](20) NOT NULL,
+	[StartDate] [int] NOT NULL,
+	[EndDate] [int] NOT NULL,
+	[CurrentFlag] [bit] NOT NULL
+)
+
+CREATE TABLE [dbo].Temp_Update_StoreOrder_2(
+	[StoreOrder_ID] [int]   NOT NULL,
+	[Store_ID] [int] NOT NULL,
+	[Store_Name] [varchar](60) NOT NULL,
+	[Supplier_ID] [int] NOT NULL,
+	[SupplierName] [varchar](60) NOT NULL,
+	[AddressField1] [varchar](60) NOT NULL,
+	[AddressField2] [varchar](60) NULL,
+	[Country] [varchar] (60) NOT NULL,
+	[State] [varchar] (60) NOT NULL,
+	[City] [varchar] (60) NOT NULL,
+	[Zipcode] [char] (10) NOT NULL,
+	[Date] [int] NOT NULL,
+	[Status] [varchar](15) NOT NULL,
+	[Total Payment]  numeric(20,4) NOT NULL,
+	[StorePayment_ID] [int] NOT NULL,
+	[PaymentMode] [char](20) NOT NULL,
+	[StartDate] [int] NOT NULL,
+	[EndDate] [int] NOT NULL,
+	[CurrentFlag] [bit] NOT NULL
+)
+
+CREATE TABLE [dbo].Temp_Update_StoreOrder_4(
+	[StoreOrder_ID_SurrogateKey] [int]  NOT NULL,
+	[StoreOrder_ID] [int]   NOT NULL,
+	[Store_ID] [int] NOT NULL,
+	[Store_Name] [varchar](60) NOT NULL,
+	[Supplier_ID] [int] NOT NULL,
+	[SupplierName] [varchar](60) NOT NULL,
+	[AddressField1] [varchar](60) NOT NULL,
+	[AddressField2] [varchar](60) NULL,
+	[Country] [varchar] (60) NOT NULL,
+	[State] [varchar] (60) NOT NULL,
+	[City] [varchar] (60) NOT NULL,
+	[Zipcode] [char] (10) NOT NULL,
+	[Date] [int] NOT NULL,
+	[Status] [varchar](15) NOT NULL,
+	[Total Payment]  numeric(20,4) NOT NULL,
+	[StorePayment_ID] [int] NOT NULL,
+	[PaymentMode] [char](20) NOT NULL,
+	[StartDate] [int] NOT NULL,
+	[EndDate] [int] NOT NULL,
+	[CurrentFlag] [bit] NOT NULL
+)
+
+CREATE TABLE [dbo].Temp_Update_StoreOrder_3(
+	[StoreOrder_ID_SurrogateKey] [int]  NOT NULL,
+	[StoreOrder_ID] [int]   NOT NULL,
+	[Store_ID] [int] NOT NULL,
+	[Store_Name] [varchar](60) NOT NULL,
+	[Supplier_ID] [int] NOT NULL,
+	[SupplierName] [varchar](60) NOT NULL,
+	[AddressField1] [varchar](60) NOT NULL,
+	[AddressField2] [varchar](60) NULL,
+	[Country] [varchar] (60) NOT NULL,
+	[State] [varchar] (60) NOT NULL,
+	[City] [varchar] (60) NOT NULL,
+	[Zipcode] [char] (10) NOT NULL,
+	[Date] [int] NOT NULL,
+	[Status] [varchar](15) NOT NULL,
+	[Total Payment]  numeric(20,4) NOT NULL,
+	[StorePayment_ID] [int] NOT NULL,
+	[PaymentMode] [char](20) NOT NULL,
+	[StartDate] [int] NOT NULL,
+	[EndDate] [int] NOT NULL,
+	[CurrentFlag] [bit] NOT NULL
+)
+
+CREATE TABLE [dbo].Temp_Update_StoreOrder_5(
+	[StoreOrder_ID_SurrogateKey] [int]  NOT NULL,
+	[StoreOrder_ID] [int]   NOT NULL,
+	[Store_ID] [int] NOT NULL,
+	[Store_Name] [varchar](60) NOT NULL,
+	[Supplier_ID] [int] NOT NULL,
+	[SupplierName] [varchar](60) NOT NULL,
+	[AddressField1] [varchar](60) NOT NULL,
+	[AddressField2] [varchar](60) NULL,
+	[Country] [varchar] (60) NOT NULL,
+	[State] [varchar] (60) NOT NULL,
+	[City] [varchar] (60) NOT NULL,
+	[Zipcode] [char] (10) NOT NULL,
+	[Date] [int] NOT NULL,
+	[Status] [varchar](15) NOT NULL,
+	[Total Payment]  numeric(20,4) NOT NULL,
+	[StorePayment_ID] [int] NOT NULL,
+	[PaymentMode] [char](20) NOT NULL,
+	[StartDate] [int] NOT NULL,
+	[EndDate] [int] NOT NULL,
+	[CurrentFlag] [bit] NOT NULL
+)
