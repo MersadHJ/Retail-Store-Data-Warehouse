@@ -5,3 +5,9 @@ A retail store sells small quantities of products to the public. This store gene
 
 ## The reason for the need for a data warehouse for the selected topic
 Because our store has many branches across the country, and to analyze data and adopt sales strategies and store policies, we need a comprehensive and unique source to access the data that We are involved in these decisions.
+
+
+## Team Members
++ [Mersad Hassanjani](https://github.com/MersadHJ)
+
++ [Nami Naziri](https://github.com/NamiNaziri)
